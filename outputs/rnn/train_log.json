@@ -1,0 +1,33 @@
+{
+    "model_type": "rnn",
+    "epochs": 10,
+    "train_losses": [
+        8.194770455360413,
+        5.924640536308289,
+        5.60143518447876,
+        5.349687695503235,
+        5.426416516304016,
+        5.357902884483337,
+        5.242146253585815,
+        5.170511364936829,
+        5.251500487327576,
+        5.054908275604248
+    ],
+    "final_loss": 5.054908275604248,
+    "config": {
+        "model_type": "rnn",
+        "src_vocab_size": 5000,
+        "tgt_vocab_size": 5000,
+        "embed_dim": 256,
+        "hidden_dim": 512,
+        "num_layers": 2,
+        "attn_type": "additive",
+        "dropout": 0.3,
+        "batch_size": 32,
+        "epochs": 10,
+        "lr": 0.001,
+        "teacher_forcing_ratio": 0.5,
+        "src_pad_idx": 0,
+        "tgt_pad_idx": 0
+    }
+}

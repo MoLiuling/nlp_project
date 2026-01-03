@@ -1,0 +1,21 @@
+{
+    "model_type": "t5",
+    "base_model": "t5-small",
+    "train_data": "data/train_10k.jsonl",
+    "valid_data": "data\\valid.jsonl",
+    "epochs": 1,
+    "batch_size": 16,
+    "gradient_accumulation": 2,
+    "learning_rate": 0.0003,
+    "train_losses": [
+        4.0047,
+        3.9017,
+        3.8719
+    ],
+    "eval_losses": [],
+    "final_train_loss": 3.8719,
+    "final_eval_loss": null,
+    "total_training_time_sec": 547.5358989238739,
+    "num_train_examples": 10000,
+    "num_valid_examples": 500
+}

@@ -1,0 +1,33 @@
+{
+    "model_type": "transformer",
+    "epochs": 10,
+    "train_losses": [
+        7.731011629104614,
+        6.692726731300354,
+        6.358144283294678,
+        5.877792239189148,
+        5.572878122329712,
+        5.306306004524231,
+        5.072829842567444,
+        4.812390327453613,
+        4.691212892532349,
+        4.422379016876221
+    ],
+    "final_loss": 4.422379016876221,
+    "config": {
+        "model_type": "transformer",
+        "src_vocab_size": 5000,
+        "tgt_vocab_size": 5000,
+        "d_model": 512,
+        "num_heads": 8,
+        "num_layers": 4,
+        "d_ff": 2048,
+        "dropout": 0.1,
+        "pos_enc_type": "sinusoidal",
+        "batch_size": 32,
+        "epochs": 10,
+        "lr": 0.0002,
+        "src_pad_idx": 0,
+        "tgt_pad_idx": 0
+    }
+}
