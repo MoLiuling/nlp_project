@@ -1,0 +1,15 @@
+{
+  "model_type": "transformer",
+  "src_vocab_size": 4000,
+  "tgt_vocab_size": 4000,
+  "d_model": 512,
+  "num_heads": 8,
+  "num_encoder_layers": 4,
+  "num_decoder_layers": 4,
+  "d_ff": 2048,
+  "dropout": 0.1,
+  "max_len": 5000,
+  "pos_enc_type": "sinusoidal",
+  "src_pad_idx": 0,
+  "tgt_pad_idx": 0
+}
